@@ -6,6 +6,7 @@ public class QuickUnion {
 
     public QuickUnion(int n) {
         ids = new int[n];
+        sizes = new int[n];
         for (int i = 0; i < n; i++) {
             ids[i] = i;
             sizes[i] = 0;
