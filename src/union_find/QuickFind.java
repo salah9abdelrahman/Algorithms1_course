@@ -1,8 +1,8 @@
 package union_find;
 
-public class UnionFind {
+public class QuickFind {
     int[] ids;
-    public UnionFind(int n) {
+    public QuickFind(int n) {
         ids = new int[n];
         for (int i = 0; i < n; i++) {
             ids[i] = i;
